@@ -97,7 +97,7 @@ result = workflow.execute(
         download_node: {"bbox": inflated_bbox, "time_interval": time_interval},
     }
 )
-
+#test wyświetlenie
 patch = result.outputs["final_eopatch"]
 patch
 
